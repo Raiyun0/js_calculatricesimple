@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+< lang="en">
 
 <head>
     <meta charset="UTF-8" />
@@ -13,25 +13,25 @@
     <h1>CALCULATRICE</h1>
     <div id="calculatrice">
         <input disabled="disabled" type="text" id="calc" /> <br />
-        <button id="9" onclick="afficher(9)">9</button>
-        <button id="8" onclick="afficher(8)">8</button>
-        <button id="7" onclick="afficher(7)">7</button>
-        <button id="*" onclick="calculer('*')">*</button><br />
-        <button id="6" onclick="afficher(6)">6</button>
-        <button id="5" onclick="afficher(5)">5</button>
-        <button id="4" onclick="afficher(4)">4</button>
-        <button id="-" onclick="calculer('-')">-</button><br />
-        <button id="3" onclick="afficher(3)">3</button>
-        <button id="2" onclick="afficher(2)">2</button>
-        <button id="1" onclick="afficher(1)">1</button>
-        <button id="+" onclick="calculer('+')">+</button><br />
-        <button id="c" onclick="effacer()">C</button>
-        <button id="0" onclick="afficher(0)">0</button>
-        <button id="/" onclick="calculer('/')">/</button>
-        <button id="=" onclick="faire()">=</button>
+        <button class="btn_number">9</button>
+        <button class="btn_number">8</button>
+        <button class="btn_number">7</button>
+        <button class="btn_op">*</button><br />
+        <button class="btn_number">6</button>
+        <button class="btn_number">5</button>
+        <button class="btn_number">4</button>
+        <button class="btn_op">-</button><br />
+        <button class="btn_number">3</button>
+        <button class="btn_number">2</button>
+        <button class="btn_number">1</button>
+        <button class="btn_op">+</button><br />
+        <button id="btn_clear" onclick="clearscreen()">C</button>
+        <button class="btn_number">0</button>
+        <button class="btn_op">/</button>
+        <button id="btn_equal" onclick="calculate()">=</button>
     </div>
 
-    <script src="script.js"></script>
+    <script src="scriptv2.js"></script>
 </body>
 
-</html>
+<
