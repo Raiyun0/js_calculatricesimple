@@ -18,6 +18,9 @@ button {
     width: 100px;
     height: 100px;
     font-size: 50px;
+   border-width: 5px;
+   border-radius: 10px;
+   
 }
 
 input {
@@ -28,7 +31,13 @@ input {
     height: 100px;
 }
 
+#btn_point{
+    position: relative;
+    bottom: 27px;
+}
+
 #calculatrice {
     position: relative;
     text-align: center;
+    
 }
